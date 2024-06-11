@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon/icons8-facebook-50.png" type="image/x-icon">
     <title>Facebook - Inciar sessao</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="acessos_recentes">
+            <h1 id="logo">Facebook</h1>
+            <h2 id="title">Acessos recentes</h2>
+            <p>Clica na tua foto ou adicionar conta</p>
+            <div class="contas">
+                <div class="row">
+                    <div class="conta_logada">
+                        <div class="img">
+                            <img src="img/foto_perfil.jpg" alt="foto_perfil" srcset="" width="160" height="160">
+                        </div>
+
+                    </div>
+                    <div class="title_conta">
+                        <h3>Danilson</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="adicionar_conta">
+                        <div class="icon_adicao">
+                            <img src="icon/icons8-plus-64.png" alt="icon_adicao">
+                        </div>
+                    </div>
+                    <div class="title_conta">
+                        <h3 id="blue">Adicionar conta</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="iniciar_sessao">
+            <div class="form_container">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="conta" id="conta" required />
+                    </div>
+                    <div class="form-group pass-group">
+                        <input type="text" class="form-control" name="password" id="password" required />
+                        <button id="btn-pass">
+                            <img src="icon/icons8-eye-24.png" alt="">
+                        </button>
+                    </div>
+                    <div class="form-group-btn">
+                        <button id="btn_iniciar_sessao">Iniciar Sessao</button>
+                    </div>
+                </form>
+                <p id="text_esqueceu_senha">Nao sabes a tua palavra-passe?</p>
+
+                <hr id="border">
+<div class="form-group-btn">
+    <button id="btn_criar_conta">Criar Conta</button>
+</div>
+        
+            </div>
+
+            <p><strong>Criar uma Página</strong> para uma celebridade, marca ou empresa.</p>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
